@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h3 {
+  padding-top: 50px;
+  font-size: small;
+  text-align: center;
+  opacity: 50%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  background-color: rgb(120, 120, 120);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  position: relative;
+  padding-top: 30px;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+img {
+  height: 300px;
+  padding: 20px;
+}
